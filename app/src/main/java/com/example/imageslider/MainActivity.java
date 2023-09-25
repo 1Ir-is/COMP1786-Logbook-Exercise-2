@@ -11,10 +11,12 @@ public class MainActivity extends AppCompatActivity {
     Button nextButton, previousButton;
     int i = 0;
 
-    private final int[] imageResources = {R.drawable.image1, R.drawable.image2,
-                                    R.drawable.image3, R.drawable.image4,
-                                    R.drawable.image5, R.drawable.image6,
-                                    R.drawable.image7, R.drawable.image8};
+    private final int[] imageResources = {
+        R.drawable.image1, R.drawable.image2,
+        R.drawable.image3, R.drawable.image4,
+        R.drawable.image5, R.drawable.image6,
+        R.drawable.image7, R.drawable.image8
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
